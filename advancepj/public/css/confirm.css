@@ -1,0 +1,24 @@
+table td {
+  text-align: left;
+  word-break : break-all;
+}
+table th{
+  width: 150px;
+}
+.confirm-table{
+  margin: 0 auto;
+  width: 800px;
+}
+.fix{
+  color: #000;
+  background-color: #fff;
+  border: none;
+  text-decoration: underline;
+}
+
+.btns{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 30px;
+}

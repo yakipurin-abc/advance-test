@@ -1,0 +1,172 @@
+.contact{
+  text-align: center;
+}
+.contact-ttl{
+  font-size: 25px;
+  margin: 20px auto;
+}
+
+th{
+  font-weight: bold;
+  text-align: left;
+}
+.name-desc{
+  display: flex;
+}
+.first-name input{
+  width: 200px;
+  height: 30px;
+}
+.first-name{
+  margin-right: 30px;
+}
+.last-name input{
+  width: 200px;
+  height: 30px;
+}
+.example-name{
+  display: flex;
+}
+.example-first{
+  margin: 0 20px;
+}
+.example-last{
+  margin-left: 145px;
+  margin-top: 0;
+}
+.require{
+  color: red;
+}
+input{
+  border: solid 1px #999;
+  border-radius: 3px;
+  outline: none;
+}
+p{
+  color: #999;
+}
+.gender{
+  padding-top: 30px;
+}
+.gender-tr{
+  position: relative;
+}
+.gender-th{
+  position: absolute;
+  top: 30px;
+  left: 50px;
+}
+.radio-input{
+  display: none;
+}
+.radio-input + label{
+  padding-left: 20px;
+  position:relative;
+  margin-right: 20px;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 25px;
+}
+.radio-input + label::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: -15px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #999;
+  border-radius: 50%;
+}
+.radio-input:checked + label{
+  color: #111;
+}
+.radio-input:checked + label::after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: -4px;
+  width: 11px;
+  height: 11px;
+  background: #111;
+  border-radius: 50%;
+}
+.email input{
+  width: 435px;
+  height: 30px;
+}
+.example-email{
+  float: left;
+  margin: 0 20px;
+}
+.postcode span{
+  color: #000;
+  margin: 0 10px;
+}
+.postcode input{
+  width: 400px;
+  height: 30px;
+}
+.example-postcode{
+  float: left;
+  margin: 0 50px;
+}
+.address input{
+  width: 435px;
+  height: 30px;
+}
+.example-address p{
+  float: left;
+  margin: 0 20px;
+}
+.building input{
+  width: 435px;
+  height: 30px;
+}
+.example-building p{
+  float: left;
+  margin: 0 20px;
+}
+.opinion{
+  border: solid 1px #999;
+  resize: none;
+  outline: none;
+  width: 435px;
+  border-radius: 3px;
+}
+.opinion-th{
+  padding-bottom: 80px;
+  position: relative;
+}
+.opinion-th p{
+  padding-bottom: 0 50px;
+  color: #000;
+  position: absolute;
+  left: 50px;
+}
+button{
+  background-color: #000;
+  color: #fff;
+  width: 100px;
+  height: 30px;
+  border: solid 1px #000;
+  border-radius: 3px;
+}
+.confirm{
+  display: none;
+}
+.table-th{
+  padding: 30px 50px;
+}
+.example-building p{
+  margin-bottom: 30px;
+}
+.index-table{
+  width: 800px;
+  margin: 0 auto;
+}
+.error{
+  text-align: center;
+  color: #000;
+}
