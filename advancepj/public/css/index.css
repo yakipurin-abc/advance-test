@@ -13,24 +13,24 @@ th{
 .name-desc{
   display: flex;
 }
-.first-name input{
+.last-name input{
   width: 200px;
   height: 30px;
 }
-.first-name{
+.last-name{
   margin-right: 30px;
 }
-.last-name input{
+.first-name input{
   width: 200px;
   height: 30px;
 }
 .example-name{
   display: flex;
 }
-.example-first{
+.example-last{
   margin: 0 20px;
 }
-.example-last{
+.example-first{
   margin-left: 145px;
   margin-top: 0;
 }

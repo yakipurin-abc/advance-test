@@ -25,13 +25,13 @@
               お名前
             </th>
             <td class="name-desc">
-              <div class="first-name">
-                {{$inputs['first-name']}}
-                <input type="text" name="first-name" value="{{ $inputs['first-name'] }}" class="confirm">
-              </div>
               <div class="last-name">
                 {{$inputs['last-name']}}
                 <input type="text" name="last-name" value="{{ $inputs['last-name'] }}" class="confirm">
+              </div>
+              <div class="first-name">
+                {{$inputs['first-name']}}
+                <input type="text" name="first-name" value="{{ $inputs['first-name'] }}" class="confirm">
               </div>
             </td>
           </tr>

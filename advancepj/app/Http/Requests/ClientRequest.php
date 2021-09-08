@@ -39,8 +39,8 @@ class ClientRequest extends FormRequest
     public function messages()
     {
         return [
-            'first-name.required' => '姓を入力してください',
-            'last-name.required' => '名を入力してください',
+            'first-name.required' => '名を入力してください',
+            'last-name.required' => '姓を入力してください',
             'gender.required' => '性別を選択してください',
             'email.required' => 'メールアドレスを入力してください',
             'email.email' => 'メールアドレスの形式で入力してください',

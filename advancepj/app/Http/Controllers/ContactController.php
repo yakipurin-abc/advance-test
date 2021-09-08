@@ -33,7 +33,7 @@ class ContactController extends Controller
         } else {
             $firstname = $request->input('first-name');
             $lastname = $request->input('last-name');
-            $fullname = $firstname.$lastname;
+            $fullname = $lastname. $firstname;
             Contact::create([
                 'fullname' => $fullname,
                 'gender' => $request->input('gender'),

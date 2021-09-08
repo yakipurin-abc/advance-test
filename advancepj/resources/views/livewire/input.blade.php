@@ -6,23 +6,23 @@
                 お名前<span class="require">※</span>
             </th>
             <td class="name-desc">
-                <div class="first-name">
-                    <input type="text" name="first-name" wire:model.lazy="firstname" value="{{old('first-name')}}">
-                    @error('first-name') <p class="error">{{ $message }}</p> @enderror
-                    @error('firstname') <p class="error">{{ $message }}</p> @enderror
-                </div>
                 <div class="last-name">
-                    <input type="text" name="last-name" value="{{old('last-name')}}" wire:model.lazy="lastname">
+                    <input type="text" name="last-name" wire:model.lazy="lastname" value="{{old('last-name')}}">
                     @error('last-name') <p class="error">{{ $message }}</p> @enderror
                     @error('lastname') <p class="error">{{ $message }}</p> @enderror
+                </div>
+                <div class="first-name">
+                    <input type="text" name="first-name" value="{{old('first-name')}}" wire:model.lazy="firstname">
+                    @error('first-name') <p class="error">{{ $message }}</p> @enderror
+                    @error('firstname') <p class="error">{{ $message }}</p> @enderror
                 </div>
             </td>
         </tr>
         <tr>
             <th></th>
             <td class="example-name">
-                <p class="example-first">例）山田</p>
-                <p class="example-last">例）太郎</p>
+                <p class="example-last">例）山田</p>
+                <p class="example-first">例）太郎</p>
             </td>
 
         </tr>
