@@ -11,10 +11,6 @@ class ContactController extends Controller
     {
         return view('index');
     }
-    public function post()
-    {
-        return view('confilm', ['result' => '']);
-    }
     public function posted(ClientRequest $request)
     {
         $inputs = $request->all();
@@ -47,8 +43,7 @@ class ContactController extends Controller
                 'building_name' => $request->input('building_name'),
                 'opinion' => $request->input('opinion'),
             ]);
-            return view('thanks');
+            return redirect('thanks');
         }
     }
-    
 }
